@@ -187,6 +187,7 @@ while over?(board) != true
 end
 if winner(board) != false && over?(board) != false
   puts "Congratulations #{winner(board)}!"
-
 end
+if draw?(board) != false && over?(board) != false
+  puts "Cat's Game!"
 end
